@@ -4,14 +4,14 @@
 
 @font-face {
     font-family: "League Gothic";
-    src: url("fonts/league/LeagueGothic-Regular.otf");
+    src: url("/build/fonts/league/LeagueGothic-Regular.otf");
     font-style: normal;
     font-weight: normal;
 }
 
 @font-face {
     font-family: "Open Sans";
-    src: url("fonts/open/OpenSans-Regular.ttf");
+    src: url("/build/fonts/open/OpenSans-Regular.ttf");
     font-style: normal;
     font-weight: normal;
 }
@@ -268,7 +268,7 @@
 .face {
     width: 49px;
     height: 49px;
-    background-image: url(images/face.png);
+    background-image: url('../images/face.png');
     background-repeat: no-repeat;
     background-position: center center;
     position: absolute;
@@ -334,7 +334,7 @@
 .post-photo {
     width: 49px;
     height: 49px;
-    background-image: url(images/post_ph1.png);
+    background-image: url('../images/post_ph1.png');
     background-repeat: no-repeat;
     background-position: center center;
 }
@@ -362,7 +362,7 @@
 }
 
 .post-photo2 {
-    background-image: url(images/photo2.png);
+    background-image: url('../images/photo2.png');
     width: 49px;
     height: 49px;
     background-repeat: no-repeat;
@@ -370,7 +370,7 @@
 }
 
 .post-photo3 {
-    background-image: url(images/post_ph3.png);
+    background-image: url('../images/post_ph3.png');
     width: 49px;
     height: 49px;
     background-repeat: no-repeat;
@@ -518,7 +518,7 @@
 }
 
 .footer {
-    background-image: url(images/bg_bottom.png);
+    background-image: url('../images/bg_bottom.png');
     background-repeat: no-repeat;
     background-position: center center;
 }
